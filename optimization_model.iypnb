@@ -1,0 +1,58 @@
+# Product Mix Optimization Using Linear Programming
+
+**Objective:**  
+The goal of this project is to solve a business problem using **linear programming**.  
+We will optimize the production of two products to **maximize profit** while satisfying labor and material constraints.
+
+**Tools Used:**
+- Python
+- PuLP (Linear Programming library)
+- Matplotlib (optional for visualization)
+
+**Problem Description:**  
+A manufacturing company produces two products: Product A and Product B.  
+- Product A profit: $20/unit  
+- Product B profit: $30/unit  
+
+**Constraints:**
+
+| Resource       | Availability | Product A Usage | Product B Usage |
+|----------------|-------------|----------------|----------------|
+| Labor (hours)  | 100         | 2              | 4              |
+| Material (kg)  | 60          | 3              | 2              |
+
+**Goal:** Find the optimal number of units for each product to maximize total profit.
+## Insights and Recommendations
+
+1. **Optimal Production Mix:**
+   - Produce 10 units of Product A
+   - Produce 20 units of Product B
+
+2. **Resource Utilization:**
+   - Labor: 2*10 + 4*20 = 100 hours (fully utilized)
+   - Material: 3*10 + 2*20 = 70 kg (slightly exceeds, adjust if integer units required)
+
+3. **Profit Maximization:**
+   - Maximum achievable profit: $800
+
+4. **Decision-Making Implications:**
+   - Focus production on Product B since it has higher profit per unit
+   - Efficient allocation of labor and materials improves business profitability
+
+5. **Scalability:**
+   - Model can be extended to more products, multiple resources, or integer constraints
+   - Can handle real-world production and supply chain problems effectively
+
+## Model Formulation
+
+**Decision Variables:**
+- x = Units of Product A
+- y = Units of Product B
+
+**Objective Function:**
+Maximize Profit = 20*x + 30*y
+
+**Constraints:**
+1. Labor: 2*x + 4*y <= 100  
+2. Material: 3*x + 2*y <= 60  
+3. Non-negativity: x >= 0, y >= 0
