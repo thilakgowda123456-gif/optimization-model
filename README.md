@@ -26,3 +26,8 @@ This task is important because it demonstrates how mathematical models can be ap
 Overall, the task highlights the practical application of linear programming in operations management. It shows how businesses can use data-driven approaches to improve productivity, reduce waste, and maximize profits. The same approach can be extended to more complex scenarios involving multiple products, additional constraints, and larger-scale industrial systems.
 
 output of the task :
+<img width="1027" height="791" alt="Image" src="https://github.com/user-attachments/assets/550b1840-fd5c-45d1-a282-09947c35b54c" />
+<img width="1068" height="826" alt="Image" src="https://github.com/user-attachments/assets/41a26095-3584-4daa-b664-d0c29ab3fd6b" />
+<img width="1030" height="760" alt="Image" src="https://github.com/user-attachments/assets/2b93b040-b3a5-4361-9dd3-a8dae4ba3837" />
+<img width="937" height="656" alt="Image" src="https://github.com/user-attachments/assets/069c620f-d146-4bee-a771-6d9fc41e2de5" />
+<img width="1038" height="435" alt="Image" src="https://github.com/user-attachments/assets/3fcf2785-8079-4051-a330-f64dd2b315fc" />
